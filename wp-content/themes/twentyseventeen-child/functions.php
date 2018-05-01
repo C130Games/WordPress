@@ -37,6 +37,7 @@ function skillcrushstarter_setup() {
 	 * hard-coded <title> tag in the document head, and expect WordPress to
 	 * provide it for us.
 	 */
+
 	add_theme_support( 'title-tag' );
 
 	// Register Menus
@@ -79,7 +80,7 @@ function skillcrushstarter_comments($comment, $args, $depth) {
 	$comment .= '<p>' . get_comment_text() . '</p>';
 	$comment .= '</div>';
 	$comment .= '</li>';
- 
+
 	echo $comment;
 }
 

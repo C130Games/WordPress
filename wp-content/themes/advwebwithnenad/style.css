@@ -1,5 +1,5 @@
 /*!
-Theme Name: AdvWebWithNenad
+Theme Name: advwebwithnenad
 Theme URI: http://underscores.me/
 Author: Jim Meyer
 Author URI: http://underscores.me/
@@ -53,6 +53,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+ .featured-blogs {
+ margin-top: 2ems;
+
+ }
 
 html {
 	line-height: 1.15; /* 1 */
@@ -644,10 +649,10 @@ a:hover, a:active {
 }
 
 .main-navigation ul {
-	display: none;
+	display: block;
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	margin: 5;
+	padding-left: 5;
 }
 
 .main-navigation ul ul {
@@ -686,6 +691,8 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	float: none !important;
+	position: relative;
 }
 
 /* Small menu. */
