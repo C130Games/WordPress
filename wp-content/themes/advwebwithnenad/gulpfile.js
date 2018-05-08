@@ -35,7 +35,7 @@ gulp.task('js', function() {
         ])
         .pipe(concat('script.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./Dist'));
+        .pipe(gulp.dest('./dist'));
 });
 
 // Default task
