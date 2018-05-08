@@ -7,8 +7,8 @@
 	ul {
 		display: none;
 		list-style: none;
-		margin: 0;
-		padding-left: 0;
+		margin: 5px;
+		padding: 5px;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -27,6 +27,8 @@
 				&:hover > ul,
 				&.focus > ul {
 					left: 100%;
+					margin: 5px;
+					padding: 5px;
 				}
 			}
 
@@ -52,6 +54,8 @@
 	li {
 		float: left;
 		position: relative;
+		margin: 5px;
+		padding: 5px;
 
 		&:hover > a,
 		&.focus > a {
